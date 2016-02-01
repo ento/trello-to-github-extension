@@ -1,0 +1,27 @@
+{
+  "name": "trello-to-github-issue",
+  "version": "1.0.0",
+  "description": "get trello card info list up owner/repo settings: trello username to github username map create issue show alert / add comment with issue url",
+  "main": "settings.js",
+  "dependencies": {
+    "@cycle/core": "^6.0.0",
+    "@cycle/dom": "^9.0.2",
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.10.0",
+    "hyperscript": "^1.4.7",
+    "hyperscript-helpers": "^2.1.0",
+    "octokat": "ento/octokat.js#refactored-webpack",
+    "rx": "^4.0.7",
+    "underscore": "^1.8.3",
+    "webpack": "^1.12.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ento",
+  "license": "ISC"
+}
